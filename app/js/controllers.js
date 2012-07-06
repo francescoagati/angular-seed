@@ -1,12 +1,6 @@
-'use strict';
-
-/* Controllers */
-
-
-function MyCtrl1() {}
-MyCtrl1.$inject = [];
-
-
-function MyCtrl2() {
-}
-MyCtrl2.$inject = [];
+(function(){
+  this.MyCtrl1 = function(){};
+  this.MyCtrl2 = function(){};
+  this.MyCtrl1.$inject = [];
+  this.MyCtrl2.$inject = [];
+}).call(this);
